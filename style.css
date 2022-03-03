@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100%;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #f2f2f2;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 200%;
+    max-width: 390px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.1);
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-header .title-text {
+    font-weight: 600;
+    font-size: 30px;;
+    text-align: center;
+}
+
+.form-header .signup-link {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.form-container {
+    display: flex;
+    width: 100%;
+}
+
+
+.form-container  form {
+    width: 100%;
+}
+
+.form-container form .field {
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form-container form .field input {
+    height: 80%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    border-bottom-width: 2px;
+    padding-left: 15px;
+    transition: all 0.4s ease;
+}
+
+.form-container form button{
+    height: 80%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    border-radius: 12px;
+    border-bottom-width: 2px;
+    padding-left: 15px;
+    transition: all 0.4s ease;
+    background: #5f9af3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.form-container form button i {
+    justify-items: end;
+    float: right;
+    padding-right: 20px;
+    font-weight: 600;
+}
